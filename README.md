@@ -2,33 +2,7 @@
 
 **Nama  :** Alfan Shobron Jamal  
 **NIM   :** 23.11.5438  
-**Mata Kuliah :** Desain Landing Page  
-
----
-
-## Struktur Folder
-
-```
-withoutme-landing/
-├── index.html            
-├── css/
-│   ├── style.css         
-│   └── components.css    
-├── js/
-│   └── main.js           
-└── images/               
-    ├── logo.png
-    ├── ziphodie-black.jpg
-    ├── tiedye-hoodie.jpg
-    ├── coach-jacket-maroon.jpg
-    ├── coach-jacket-black.jpg
-    ├── hoodie-beige.jpg
-    ├── hoodie-maroon.jpg
-    ├── ziphodie-tshirt-print.jpg
-    ├── sling-bag.jpg
-    ├── wis-bag-navi.jpg
-    └── wis-bag.jpg
-```
+**Mata Kuliah :** Digital Business
 
 ---
 
@@ -56,20 +30,6 @@ withoutme-landing/
 1. Salin folder `withoutme-landing/` ke komputer kamu
 2. Pindahkan semua foto produk ke folder `images/`
 3. Buka `index.html` di browser atau pakai Live Server di VS Code
-
----
-
-## Font yang Digunakan
-
-Tambahkan link berikut di `<head>` index.html jika belum ada:
-
-```html
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link
-  href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700;800&display=swap"
-  rel="stylesheet"
-/>
-```
 
 ---
 
