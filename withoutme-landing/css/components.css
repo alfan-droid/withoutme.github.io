@@ -1,0 +1,93 @@
+/* ============================================================
+   css/components.css
+   WITHOUT ME SUPPLY GOODS — Animations & Component States
+   Nama : Alfan Shobron Jamal  |  NIM : 23.11.5438
+============================================================ */
+
+/* ── FADE-IN ON SCROLL ───────────────────────────────────── */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal-delay-1 { transition-delay: 0.1s; }
+.reveal-delay-2 { transition-delay: 0.2s; }
+.reveal-delay-3 { transition-delay: 0.3s; }
+
+/* ── NAVBAR SCROLLED STATE ───────────────────────────────── */
+.navbar.scrolled {
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* ── MOBILE NAV OPEN ─────────────────────────────────────── */
+.mobile-nav {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: #050505;
+  z-index: 200;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.mobile-nav.open { display: flex; }
+.mobile-nav a {
+  font-size: 28px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 4px;
+  color: #fff;
+}
+.mobile-nav__close {
+  position: absolute;
+  top: 20px; right: 28px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ── PRODUCT CARD HOVER BADGE ────────────────────────────── */
+.product-card__overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.product-card:hover .product-card__overlay { opacity: 1; }
+.product-card__overlay-btn {
+  background: #fff;
+  color: #0a0a0a;
+  padding: 10px 24px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+/* ── FORM SUCCESS STATE ──────────────────────────────────── */
+.cta-section__form.submitted .cta-section__input,
+.cta-section__form.submitted button {
+  pointer-events: none;
+  opacity: 0.5;
+}
+.success-msg {
+  display: none;
+  font-size: 13px;
+  color: #28a745;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+.success-msg.show { display: block; }

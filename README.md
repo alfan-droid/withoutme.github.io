@@ -1,1 +1,0 @@
-# alfan-droid.github.io

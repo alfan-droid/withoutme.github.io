@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Without Me Supply Goods</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/components.css" />
+  </head>
+
+  <body>
+
+    <!-- ============================================================
+         STUDENT INFO BAR
+         Nama  : Alfan Shobron Jamal
+         NIM   : 23.11.5438
+    ============================================================ -->
+    <div class="student-bar">
+      <span class="student-bar__label">Kelompok</span>
+      <span class="student-bar__name">Alfan Shobron Jamal &nbsp;·&nbsp; NIM 23.11.5438</span>
+    </div>
+
+    <!-- ============================================================
+         1. NAVIGATION
+    ============================================================ -->
+    <nav class="navbar" id="navbar">
+      <div class="navbar__logo">
+        <img src="images/logo.png" alt="Without Me Supply Goods Logo" class="navbar__logo-img" />
+        <div class="navbar__brand">
+          <span class="navbar__brand-name">WITHOUTME</span>
+          <span class="navbar__brand-sub">SUPPLYGOODS</span>
+        </div>
+      </div>
+      <ul class="navbar__links">
+        <li><a href="#produk">PRODUK</a></li>
+        <li><a href="#koleksi">KOLEKSI</a></li>
+        <li><a href="#tentang">TENTANG</a></li>
+        <li><a href="#kontak">KONTAK</a></li>
+      </ul>
+      <a href="#cta" class="btn btn--primary navbar__cta">SHOP NOW</a>
+      <button class="navbar__hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- ============================================================
+         2. HERO SECTION  (Headline + Hero Image + CTA)
+    ============================================================ -->
+    <section class="hero" id="hero">
+      <div class="hero__content">
+        <span class="hero__badge">✦ NEW COLLECTION 2025</span>
+        <h1 class="hero__headline">
+          DEFINE YOUR<br />
+          <span class="hero__headline--accent">OWN STYLE.</span>
+        </h1>
+        <p class="hero__sub">
+          Streetwear lokal berkualitas tinggi yang dirancang untuk mereka yang
+          berani tampil berbeda. Dari hoodie hingga tas — semua ada di Without Me Supply.
+        </p>
+        <div class="hero__buttons">
+          <a href="#produk" class="btn btn--primary">BELANJA SEKARANG</a>
+          <a href="#koleksi" class="btn btn--outline">LIHAT KOLEKSI</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__img-grid">
+          <img src="images/ziphodie-black.jpg"    alt="Zip Hoodie Black" />
+          <img src="images/tiedye-hoodie.jpg"     alt="Tie Dye Hoodie" />
+          <img src="images/coach-jacket-maroon.jpg" alt="Coach Jacket Maroon" />
+          <img src="images/coach-jacket-black.jpg"  alt="Coach Jacket Black" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         3. USP BAR  (Unique Selling Proposition)
+    ============================================================ -->
+    <div class="usp-bar">
+      <div class="usp-bar__item">
+        <span class="usp-bar__icon">🛡️</span>
+        <span class="usp-bar__text">KUALITAS TERJAMIN</span>
+      </div>
+      <div class="usp-bar__item">
+        <span class="usp-bar__icon">🚚</span>
+        <span class="usp-bar__text">PENGIRIMAN SELURUH INDONESIA</span>
+      </div>
+      <div class="usp-bar__item">
+        <span class="usp-bar__icon">🔄</span>
+        <span class="usp-bar__text">FREE RETURN 7 HARI</span>
+      </div>
+      <div class="usp-bar__item">
+        <span class="usp-bar__icon">💬</span>
+        <span class="usp-bar__text">CS RESPONSIF 7/7</span>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         4. PRODUK UNGGULAN  (Product Showcase)
+    ============================================================ -->
+    <section class="section products" id="produk">
+      <div class="section__header">
+        <span class="section__label">— PRODUK UNGGULAN</span>
+        <h2 class="section__title">PILIHAN TERLARIS</h2>
+        <p class="section__sub">
+          Koleksi terpopuler yang paling banyak digemari. Unisex, tersedia dalam berbagai ukuran.
+        </p>
+      </div>
+      <div class="products__grid">
+
+        <!-- Product Card -->
+        <div class="product-card">
+          <span class="product-card__tag">BESTSELLER</span>
+          <img src="images/hoodie-beige.jpg" alt="Hoodie Beige" class="product-card__img" />
+          <div class="product-card__info">
+            <span class="product-card__name">HOODIE BEIGE</span>
+            <span class="product-card__price">IDR 210.000 · UNISEX M–XXL</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-card__tag product-card__tag--new">NEW</span>
+          <img src="images/tiedye-hoodie.jpg" alt="Hoodie Tie-Dye" class="product-card__img" />
+          <div class="product-card__info">
+            <span class="product-card__name">HOODIE TIE-DYE</span>
+            <span class="product-card__price">IDR 210.000 · UNISEX M–XXL</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/hoodie-maroon.jpg" alt="Hoodie Maroon" class="product-card__img" />
+          <div class="product-card__info">
+            <span class="product-card__name">HOODIE MAROON</span>
+            <span class="product-card__price">IDR 210.000 · UNISEX M–XXL</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-card__tag product-card__tag--hot">HOT</span>
+          <img src="images/coach-jacket-maroon.jpg" alt="Coach Jacket Maroon" class="product-card__img" />
+          <div class="product-card__info">
+            <span class="product-card__name">COACH JACKET MAROON</span>
+            <span class="product-card__price">IDR 210.000 · UNISEX</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <img src="images/coach-jacket-black.jpg" alt="Coach Jacket Black" class="product-card__img" />
+          <div class="product-card__info">
+            <span class="product-card__name">COACH JACKET BLACK</span>
+            <span class="product-card__price">IDR 210.000 · UNISEX</span>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <span class="product-card__tag product-card__tag--new">NEW</span>
+          <img src="images/ziphodie-tshirt-print.jpg" alt="Zip Hoodie T-Shirt Print" class="product-card__img" />
+          <div class="product-card__info">
+            <span class="product-card__name">ZIPHODIE T-SHIRT PRINT</span>
+            <span class="product-card__price">IDR 180.000 · M–XXL</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         5. PAS SECTION  (Problem · Agitate · Solution)
+    ============================================================ -->
+    <section class="pas" id="tentang">
+      <div class="pas__text">
+        <span class="section__label">— MENGAPA WITHOUT ME?</span>
+        <h2 class="pas__title">Bosan pakai brand luar<br />dengan harga selangit?</h2>
+
+        <div class="pas__block pas__block--problem">
+          <p>
+            <strong>Masalahnya:</strong> Streetwear berkualitas selalu identik dengan
+            harga mahal dan stok terbatas.
+          </p>
+        </div>
+
+        <div class="pas__block pas__block--agitate">
+          <p>
+            Bayangkan sudah beli jaket ratusan ribu, tapi bahan cepat luntur,
+            jahitan lepas setelah beberapa kali cuci, dan desainnya pasaran.
+          </p>
+        </div>
+
+        <div class="pas__block pas__block--solution">
+          <h3>Without Me hadir sebagai solusinya.</h3>
+          <p>
+            Brand lokal Magelang dengan bahan pilihan, jahitan rapi,
+            desain bold — semua di harga yang terjangkau.
+          </p>
+        </div>
+
+        <a href="#produk" class="btn btn--primary">BUKTIKAN SENDIRI →</a>
+      </div>
+
+      <div class="pas__visual">
+        <img src="images/coach-jacket-maroon.jpg" alt="Without Me Supply" class="pas__img" />
+        <div class="pas__stats">
+          <div class="pas__stat">
+            <span class="pas__stat-num">500+</span>
+            <span class="pas__stat-lbl">PRODUK TERJUAL</span>
+          </div>
+          <div class="pas__divider"></div>
+          <div class="pas__stat">
+            <span class="pas__stat-num">4.9★</span>
+            <span class="pas__stat-lbl">RATING RATA-RATA</span>
+          </div>
+          <div class="pas__divider"></div>
+          <div class="pas__stat">
+            <span class="pas__stat-num">3TH</span>
+            <span class="pas__stat-lbl">BERPENGALAMAN</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         6. KATEGORI  (Categories / Collections)
+    ============================================================ -->
+    <section class="section categories" id="koleksi">
+      <div class="section__header">
+        <span class="section__label">— KATEGORI</span>
+        <h2 class="section__title">TEMUKAN GAYA KAMU</h2>
+      </div>
+      <div class="categories__grid">
+        <div class="cat-card cat-card--tall">
+          <img src="images/ziphodie-black.jpg" alt="Hoodies & Jaket" />
+          <div class="cat-card__label">
+            <h3>HOODIES &amp; JAKET</h3>
+            <p>MULAI IDR 180K</p>
+          </div>
+        </div>
+        <div class="cat-card">
+          <img src="images/sling-bag.jpg" alt="Sling Bag" />
+          <div class="cat-card__label">
+            <h3>SLING BAG</h3>
+            <p>MULAI IDR 120K</p>
+          </div>
+        </div>
+        <div class="cat-card">
+          <img src="images/wis-bag-navi.jpg" alt="Wis Bag" />
+          <div class="cat-card__label">
+            <h3>WIS BAG</h3>
+            <p>MULAI IDR 120K</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         7. SOCIAL PROOF  (Testimonials)
+    ============================================================ -->
+    <section class="section social-proof" id="testimoni">
+      <div class="section__header">
+        <span class="section__label">— TESTIMONI PELANGGAN</span>
+        <h2 class="section__title">APA KATA MEREKA</h2>
+      </div>
+
+      <div class="reviews__grid">
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">
+            "Hoodie-nya tebal banget, nggak mengecewakan. Sudah cuci 10x lebih
+            masih tetap bagus. Worth it banget buat harganya!"
+          </p>
+          <span class="review-card__author">RIZKY PRATAMA</span>
+          <span class="review-card__location">YOGYAKARTA</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★★</div>
+          <p class="review-card__text">
+            "Coach jacket-nya keren abis, desain di bagian belakang bikin
+            banyak yang nanya beli dimana. Proud pake brand lokal!"
+          </p>
+          <span class="review-card__author">DINDA SETIAWATI</span>
+          <span class="review-card__location">SEMARANG</span>
+        </div>
+
+        <div class="review-card">
+          <div class="review-card__stars">★★★★☆</div>
+          <p class="review-card__text">
+            "Tas sling bag-nya compact dan stylish. Packaging rapi, pengiriman
+            cepat. Sudah order 3 kali dan nggak pernah kecewa!"
+          </p>
+          <span class="review-card__author">FAHMI ARDIANSYAH</span>
+          <span class="review-card__location">MAGELANG</span>
+        </div>
+
+      </div>
+
+      <!-- Trust Numbers -->
+      <div class="trust-bar">
+        <div class="trust-bar__item">
+          <span class="trust-bar__num">500+</span>
+          <span class="trust-bar__lbl">PRODUK TERJUAL</span>
+        </div>
+        <div class="trust-bar__item">
+          <span class="trust-bar__num">98%</span>
+          <span class="trust-bar__lbl">KEPUASAN PELANGGAN</span>
+        </div>
+        <div class="trust-bar__item">
+          <span class="trust-bar__num">3+</span>
+          <span class="trust-bar__lbl">TAHUN BERDIRI</span>
+        </div>
+        <div class="trust-bar__item">
+          <span class="trust-bar__num">50+</span>
+          <span class="trust-bar__lbl">KOTA TERJANGKAU</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         8. GUARANTEE  (Trust Signals)
+    ============================================================ -->
+    <section class="guarantee">
+      <div class="guarantee__card">
+        <span class="guarantee__icon">🛡️</span>
+        <h4 class="guarantee__title">KUALITAS TERJAMIN</h4>
+        <p class="guarantee__desc">
+          Setiap produk melewati quality control ketat sebelum sampai ke tanganmu.
+        </p>
+      </div>
+      <div class="guarantee__card">
+        <span class="guarantee__icon">📦</span>
+        <h4 class="guarantee__title">PACKAGING AMAN</h4>
+        <p class="guarantee__desc">
+          Dikemas dengan bubble wrap tebal dan kardus kokoh agar tiba sempurna.
+        </p>
+      </div>
+      <div class="guarantee__card">
+        <span class="guarantee__icon">🎧</span>
+        <h4 class="guarantee__title">CS SIAP BANTU</h4>
+        <p class="guarantee__desc">
+          Tim kami siap merespons via WhatsApp dan Instagram DM setiap hari.
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         9. CTA SECTION  (Call to Action — Email Signup)
+    ============================================================ -->
+    <section class="cta-section" id="cta">
+      <span class="section__label" style="color:#888">— DAPATKAN PENAWARAN EKSKLUSIF</span>
+      <h2 class="cta-section__title">JANGAN SAMPAI<br />KEHABISAN STOK</h2>
+      <p class="cta-section__sub">
+        Daftarkan emailmu dan jadilah yang pertama tahu saat koleksi baru rilis.
+        Dapatkan diskon <strong>10%</strong> untuk pembelian pertamamu!
+      </p>
+      <form class="cta-section__form" id="ctaForm">
+        <input
+          type="email"
+          placeholder="emailmu@gmail.com"
+          class="cta-section__input"
+          required
+        />
+        <button type="submit" class="btn btn--dark">DAFTAR SEKARANG</button>
+      </form>
+      <p class="cta-section__note">Tidak ada spam. Bisa unsubscribe kapan saja.</p>
+    </section>
+
+    <!-- ============================================================
+         10. FOOTER
+    ============================================================ -->
+    <footer class="footer" id="kontak">
+      <div class="footer__brand">
+        <img src="images/logo.png" alt="Logo" class="footer__logo" />
+        <p class="footer__tagline">
+          Brand streetwear lokal dari Magelang yang menghadirkan
+          produk berkualitas dengan desain otentik.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">PRODUK</h4>
+        <a href="#">Hoodie</a>
+        <a href="#">Zip Hoodie</a>
+        <a href="#">Coach Jacket</a>
+        <a href="#">Sling Bag</a>
+        <a href="#">Wis Bag</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">KONTAK</h4>
+        <a href="https://wa.me/628184671010">WA: 0818 467 101</a>
+        <a href="tel:088239931791">Online: 088239931791</a>
+        <a href="#">@withoutmexp</a>
+        <a href="#">Magelang, Jawa Tengah</a>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2025 WITHOUT ME SUPPLYGOODS. ALL RIGHTS RESERVED.</p>
+        <p class="footer__student">Alfan Shobron Jamal &nbsp;·&nbsp; 23.11.5438</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
